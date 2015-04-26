@@ -4,9 +4,10 @@
 ## Write a short comment describing this function
 
 
+##Funtion creates a special "matrix" object that can cache its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
-                                     ##Funtion creates a special "matrix" object that can cache its inverse
+                                     
                                
   i<-NULL
   set<-function(y){
